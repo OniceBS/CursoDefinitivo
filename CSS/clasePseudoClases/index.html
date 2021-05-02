@@ -8,48 +8,69 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul class="main-nav">
-          <li class="main-nav__item"><a href="">Home</a></li>
-          <li class="main-nav__item"><a href="">Cursos</a></li>
-          <li class="main-nav__item"><a href="">Intructores</a></li>
-          <li class="main-nav__item"><a href="">Blog</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
+        <nav>
+          <ul class="main-nav">
+            <li class="main-nav__item"><a href="">Home</a></li>
+            <li class="main-nav__item"><a href="">Cursos</a></li>
+            <li class="main-nav__item"><a href="">Instructores</a></li>
+            <li class="main-nav__item"><a href="">Blog</a></li>
+          </ul>
+        </nav>
+      </header>
       <section>
-        <ul>
-          <li></li>
-        </ul>
+        <nav>
+          <ul class="sect-nav">
+            <li class="sect-nav__item"><a href="">Home</a></li>
+            <li class="sect-nav__item"><a href="">Cursos</a></li>
+            <li class="sect-nav__item"><a href="">Instructores</a></li>
+            <li class="sect-nav__item"><a href="">Blog</a></li>
+          </ul>
+        </nav>
       </section>
-    </main>
-  </body>
-</html>
+      <section>
+        <article class="art-notas">
+          <h2 class="art-notas__titulo">Notas clase Pseudo clases y Pseudo elementos:</h2>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <head>
-    <nav>
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Cursos</a></li>
-        <li><a href="">Instructores</a></li>
-        <li><a href="">Blog</a></li>
-        
-        <nav class="nav"></nav>
-          <section class="nav__logo">
-            <img src="./img.png" class="nav__img">
-          </section>
-      </ul>
-    </nav>
-  </head>
-</body>
+            <table class="art-notas__table"> 
+              <tr>    
+                <td class="art-notas__table--color1a">Pseudo clases</td>
+              </tr>
+              <tr>       
+                <td class="art-notas__table--color2a">:class</td>
+              </tr>
+              <tr>
+                <td class="art-notas__table--color1b">Pseudo elementos</td>
+              </tr>
+              <tr>
+                <td class="art-notas__table--color2b">::element</td>
+              </tr>
+            </table>
+            
+          <p class="art-notas__texto">
+            Las Pseudo clases Definen <b>un estado</b> especial de un elemento. ejemplo : 
+            <br><br>
+            <span style="color: rgb(13, 142, 182);">
+
+             .sect-nav a:hover {
+              <br>color: red;
+            <br>}               
+                       
+            <br><br> 
+            </span>
+          </p>
+
+          <p class="art-notas__texto--2">
+            Los Pseudo elementos definen el estilo de <b>una parte</b> especifica de un elemento. ejemplo: 
+            <br><br>
+            <span style="color: rgb(13, 142, 182);">
+
+              .sect-nav a::after {
+              <br>  content: " | ";
+              <br>}
+
+            </span>
+          </p>
+        </article>
+      </section>
+  </body>
 </html>
