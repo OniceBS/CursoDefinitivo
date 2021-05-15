@@ -1,0 +1,21 @@
+/* Esto lo deben llevar todos los archivos css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* Ejemplo de medidas rem*/
+
+.title {
+    font-size: 1.6rem;
+    color: red;
+}
+
+.Parrafo {
+    font-size: 1.6rem;
+}
