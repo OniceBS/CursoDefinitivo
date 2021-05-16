@@ -1,0 +1,72 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.ImagenFiona{
+    width: 25%;
+    height: 25%;
+    position: relative;
+    left: 150px;
+    margin: 15px;
+    margin-top: -5px;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 20px rgba(52,52,52,0.56);  
+}
+
+
+.parent {
+    background-color: transparent;
+    width: 60rem;
+    height: 35.2rem;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.caja {
+    font-size: 1.6em;
+}
+
+#caja1 {
+    padding: 30px 50px;
+    /* border: 2px rgb(136, 136, 136) solid; */
+    border-radius: 15px;
+    background-color: rgb(193, 243, 255);
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 0px;
+    box-shadow: 0px 0px 5px 0px rgba(52, 52, 52, 0.56);   
+}
+
+#caja2 {
+    background-color: rgb(255, 221, 221);
+    padding: 60px;
+    padding-top: 80px;
+    /* border: 2px rgb(136, 136, 136) solid; */
+    border-radius: 40px;
+    width: 47.5rem;
+    margin: -40px auto; 
+    box-shadow: 0px 0px 5px 0px rgba(52,52,52,0.56);
+}
+
+/* #caja3 {
+    display: inline-block;
+    font-size: inherit;
+    padding: 30px 50px;
+    /* border: 2px rgb(136, 136, 136) solid; 
+    border-radius: 40px;
+    background-color: rgb(193, 243, 255);
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 0px;  
+    } /*
+
