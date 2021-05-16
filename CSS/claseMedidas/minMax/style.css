@@ -1,8 +1,13 @@
+/* Una regla importante cuando vayamos a utilizar el min y el max en el width, necesitamos tener un width base y casi siempre este va a ser en porcentaje.
+Lorem*8 sirve para agregar texto en párrafo.
+Problema de overflow, quiere decir que tenemos mas texto contenido que el mismo espacio del contenedor padre. */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 
 main {
   width: 100vw;
@@ -14,7 +19,10 @@ section {
   width: 100%;
   min-width: 320px;
   max-width: 500px;
-  height: 850px;
+  height: 100%;
+  min-height: 320px;
+  max-height: 500px;
   background-color: red;
-  margin: 0 auto;
+  margin: 0 auto; /* El 0 quiere decir: Ni arriba ni abajo poner margin pero de izquierda a derecha hacer que el margin se ajuste de forma automatica*/
 }
+
