@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    width: 100vw;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.contenedor1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: rgb(204, 204, 204);
+    height: 10vh;
+}
+
+.nav {
+    width: 15vw;
+    height: 10vh;
+}
+
+.HeaderNavLogo {
+    background-color: rgb(149, 248, 255);
+    margin-right: auto;
+}
+
+.HeaderNav1 {
+    background-color: rgb(250, 157, 157);
+}
+
+.HeaderNav2 {
+    background-color: rgb(255, 253, 109);
+}
+
+.HeaderNav3 {
+    background-color: rgb(255, 121, 215);
+}
+
+.HeaderNav4 {
+    background-color: rgb(159, 255, 155);
+}
+
+.contenedor2 {
+    display: flex;
+}
+
+.cajasArticle {
+    background-color: rgb(253, 201, 201);
+    width: 20vw;
+    /* height: 59.5rem; */
+    padding-top: 15px;
+    height: 70vh;
+}
+
+.caja {
+    background-color: rgb(245, 244, 181);
+    margin-bottom: 15px;
+    margin: 1.5rem 1rem 1rem 3.5rem;
+    width: 15vw;
+    /* height: 10rem;   */
+    /* min-width: 14.7rem; */
+    border-radius: 10px;
+    height: 10.5vh;
+}
+
+.textAside {
+    background-color: royalblue;
+    width: 80vw;
+    /* height: 59.5rem; */
+    height: 70vh;
+}
+
+.Footer {
+    background-color: rgb(250, 189, 212);
+    width: 100vw;
+    height: 20vh;
+}
