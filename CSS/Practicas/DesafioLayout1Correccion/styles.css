@@ -1,3 +1,7 @@
+:root {
+    --color-header: rgb(219, 219, 219);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,6 +11,7 @@
 html {
     font-size: 62.5%;
     width: 100vw;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -17,35 +22,61 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    background-color: rgb(219, 219, 219);
+    background-color: var(--color-header);
     height: 10vh;
 }
 
 .nav {
-    width: 15vw;
+    width: 15vw; 
     height: 10vh;
 }
 
 .HeaderNavLogo {
+    display: flex;
     background-color: rgb(149, 248, 255);
     margin-right: auto;
+    justify-content: center;
+    align-items: center;
     width: 20vw;
+    max-width: 30vw;
+}
+
+.ElementoLogo {
+    background-color: rgb(149, 248, 255);
+    width: 6vw;
+    height: 3.5vh;
+}
+
+#logo {
+    width: 2.5vw;
 }
 
 .HeaderNav1 {
+    display: flex;
     background-color: rgb(250, 157, 157);
+    justify-content: center;
+    align-items: center;
 }
 
 .HeaderNav2 {
+    display: flex;
     background-color: rgb(255, 253, 109);
+    justify-content: center;
+    align-items: center;
 }
 
 .HeaderNav3 {
+    display: flex;
     background-color: rgb(255, 121, 215);
+    justify-content: center;
+    align-items: center;
 }
 
 .HeaderNav4 {
+    display: flex;
     background-color: rgb(159, 255, 155);
+    justify-content: center;
+    align-items: center;
 }
 
 .contenedor2 {
@@ -79,6 +110,8 @@ body {
     display: flex;
     height: 11vh;
     border-radius: 1vh;
+    justify-content: center;
+    align-items: center;
     /*margin-bottom: 15px;
     margin: 1.5rem 1rem 1rem 3.5rem;
     width: 15vw;
@@ -89,14 +122,22 @@ body {
 }
 
 .textAside {
+    display: flex;
     background-color: royalblue;
     width: 80vw;
     /* height: 59.5rem; */
     height: 70vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 15rem;
 }
 
 .Footer {
+    display: flex;
     background-color: rgb(202, 241, 248);
     width: 100vw;
     height: 20vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
 }
