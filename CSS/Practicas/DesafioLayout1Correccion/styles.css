@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(219, 219, 219);
     height: 10vh;
 }
 
@@ -29,6 +29,7 @@ body {
 .HeaderNavLogo {
     background-color: rgb(149, 248, 255);
     margin-right: auto;
+    width: 20vw;
 }
 
 .HeaderNav1 {
@@ -52,22 +53,39 @@ body {
 }
 
 .cajasArticle {
+    display: flex;
     background-color: rgb(253, 201, 201);
     width: 20vw;
-    /* height: 59.5rem; */
-    padding-top: 15px;
-    height: 70vh;
+    /*height: 59.5rem; 
+    padding-top: 15px;*/
+    height: 70vh; 
+    flex-direction: center;
+    justify-content: space-evenly;
+}
+
+.cajasArticle2 {
+    display: flex;
+    background-color: rgb(253, 201, 201);
+    width: 16vw;
+    /*height: 59.5rem; 
+    padding-top: 15px;*/
+    height: 70vh; 
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .caja {
     background-color: rgb(245, 244, 181);
-    margin-bottom: 15px;
+    display: flex;
+    height: 11vh;
+    border-radius: 1vh;
+    /*margin-bottom: 15px;
     margin: 1.5rem 1rem 1rem 3.5rem;
     width: 15vw;
-    /* height: 10rem;   */
-    /* min-width: 14.7rem; */
+    height: 10rem;  
+    min-width: 14.7rem;
     border-radius: 10px;
-    height: 10.5vh;
+    height: 10.5vh; */
 }
 
 .textAside {
@@ -78,7 +96,7 @@ body {
 }
 
 .Footer {
-    background-color: rgb(250, 189, 212);
+    background-color: rgb(202, 241, 248);
     width: 100vw;
     height: 20vh;
 }
