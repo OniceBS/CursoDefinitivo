@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.contenedorHeader {
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    /* background-color: rgb(26, 77, 107); */
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    width: 98vw;
+    height: 17vh;
+    background-color: rgb(143, 214, 255);
+    border-radius: 1vw;
+}
+
+.contenedorNav {
+    height: 15vh;
+    display: flex;
+    /* background-color: rgb(229, 243, 38); */
+}
+
+.subContenedorNav1 {
+    display: flex;
+    height: 15vh;
+    /* background-color: rgb(255, 202, 56); */
+    justify-content: flex-end;
+}
+
+.subContenedorNav2 {
+    display: flex;
+    height: 15vh;
+    /* background-color: rgb(255, 202, 56); */
+    justify-content: flex-end; 
+}
+
+.nav {
+    width: 49vw;
+    height: 13.5vh;
+    background-color: rgb(247, 245, 160);
+    border-radius: 1vw;
+}
+
+.nav2 {
+    width: 48vw;
+    height: 13.5vh;
+    background-color: rgb(247, 245, 160);
+    border-radius: 1vw;
+}
+
+.contenedorElements {
+    display: flex;
+    /* background-color: rgb(160, 21, 21); */
+    height: 47vh;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.subContenedorElements {
+    display: flex;
+    flex-wrap: wrap;
+    height: 45.5vh;
+    width: 99vw;
+    /* background-color: rgb(196, 88, 88); */
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.element1 {
+    width: 49vw;
+    height: 45.5vh;
+    background-color: rgb(255, 159, 175);
+    border-radius: 1vw;
+}
+
+.element2 {
+    width: 48vw;
+    height: 22vh;
+    background-color: rgb(255, 159, 175);
+    border-radius: 1vw;
+    
+}
+
+.element3 {
+    width: 48vw;
+    height: 22vh;
+    background-color: rgb(255, 159, 175);
+    border-radius: 1vw;
+}
+
+.contenedorFooter {
+    display: flex;
+    width: 100vw;
+    height: 18vh;
+    justify-content: center;
+    align-items: flex-start;
+    /* background-color: rgb(91, 101, 255); */
+}
+
+.footer {
+    width: 98vw;
+    height: 16.5vh;
+    background-color: rgb(159, 181, 255);
+    border-radius: 1vw;
+}
