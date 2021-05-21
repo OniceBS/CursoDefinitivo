@@ -54,7 +54,7 @@ html {
 .nav2 {
     width: 48vw;
     height: 13.5vh;
-    background-color: rgb(247, 245, 160);
+    background-color: rgb(169, 247, 223);
     border-radius: 1vw;
 }
 
@@ -87,7 +87,7 @@ html {
 .element2 {
     width: 48vw;
     height: 22vh;
-    background-color: rgb(255, 159, 175);
+    background-color: rgb(187, 255, 174);
     border-radius: 1vw;
     
 }
@@ -95,7 +95,7 @@ html {
 .element3 {
     width: 48vw;
     height: 22vh;
-    background-color: rgb(255, 159, 175);
+    background-color: rgb(255, 159, 247);
     border-radius: 1vw;
 }
 
