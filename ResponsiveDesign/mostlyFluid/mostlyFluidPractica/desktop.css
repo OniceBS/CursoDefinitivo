@@ -80,18 +80,30 @@ html {
 }
 
 .element1 {
+    display: flex;
     width: 49vw;
     height: 62vh;
     background-color: rgb(255, 159, 175);
     border-radius: 1vw;
+    
+}
+
+.imagen1 {
+    width: 100vh;
+    border-radius: 1vw;
 }
 
 .element2 {
+    display: flex;
     width: 49vw;
     height: 30.5vh;
     background-color: rgb(187, 255, 174);
     border-radius: 1vw;
-    
+}
+
+.imagen2 {
+    width: 100vh;
+    border-radius: 1vw;
 }
 
 .element3 {

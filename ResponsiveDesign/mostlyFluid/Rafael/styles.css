@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedorHeader {
+    display: flex;
+    width: 100vw;
+    height: 19vh;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    width: 87vw;
+    height: 10vh;
+    /* background-color: rgb(185, 185, 185); */
+    justify-content: flex-end;
+}
+
+.Logo {
+    display: flex;
+    width: 5vw;
+    height: 10vh;
+    background-color: rgb(226, 117, 117);
+    margin-right: auto;
+}
+
+.home {
+    display: flex;
+    width: 5vw;
+    height: 10vh;
+    background-color: rgb(117, 210, 226);
+}
+
+.about {
+    display: flex;
+    width: 5vw;
+    height: 10vh;
+    background-color: rgb(159, 117, 226);
+}
+
+.Concursos {
+    display: flex;
+    width: 5vw;
+    height: 10vh;
+    background-color: rgb(189, 255, 169);
+}
+
+.Proyectos {
+    display: flex;
+    width: 5vw;
+    height: 10vh;
+    background-color: rgb(234, 253, 151);
+}
+
+
+
+.contenedorMain {
+    display: flex;
+    width: 100vw;
+    /* height: 70vh; */
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* min-height: 20vh; */
+}
+
+.margenesMain {
+    display: flex;
+    width: 89vw;
+    /* height: 67vh; */
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* min-height: 495vh; */
+    max-width: 89vw;
+    max-height: auto;
+}
+
+.margenesMainVertical {
+    /* background-color: rgb(233, 142, 149); */
+    display: flex;
+    /* height: 64vh; */
+    height: auto;
+    width: 94vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img.imagen{
+    margin: 0.6vw;
+    height: auto;
+    width: auto;
+    max-height: 30vh;
+    max-width: 70vh;
+    justify-content: space-around;
+}
+
+.element1, .element2, .element3 {
+    /* background-color: rebeccapurple; */
+    margin-top: 0.5vw;
+}
+
+.contenedorFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer {
+    display: flex;
+    width: 25vw;
+    height: 5vh;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.informacion, .ayuda, .copyright, .idioma {
+   font-size: 1.6rem;
+    height: 3vh;
+    color: rgb(255, 255, 255);
+    /* background-color: red; */
+    cursor: pointer;
+}
+
+select {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    outline: none;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    margin: 0%;
+    border: 0%;
+}
